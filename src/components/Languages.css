@@ -1,0 +1,43 @@
+.languages {
+  background-color: #f8f8f8;
+}
+
+.box {
+  margin: 3rem;
+}
+
+.languages .container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
+}
+
+.languages h3 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.container .grid-item {
+  padding: 1rem;
+  background: #ffffff;
+  margin: 1.5rem;
+  border-radius: 50px 50px 0px 50px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.grid-item:hover {
+  background: var(--secondary-dark);
+  border-radius: 50px 50px 0px 50px;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+@media screen and (max-width: 940px) {
+  .languages .container {
+    grid-template-columns: auto auto auto;
+  }
+
+  .languages .grid-item {
+    max-width: 100%;
+    margin: 1rem;
+  }
+}
