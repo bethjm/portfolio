@@ -23,19 +23,16 @@ const NavBar = () => {
             <a href="/">Home</a>
           </li>
           <li className="nav-item">
-            <a href="/">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li className="nav-item">
-            <a href="/">About</a>
+            <a href="#about">About</a>
           </li>
           <li className="nav-item">
-            <a href="/">Testimonials</a>
+            <a href="#languages">Skills</a>
           </li>
           <li className="nav-item">
-            <a href="/">Skills</a>
-          </li>
-          <li className="nav-item">
-            <a href="/">Resume</a>
+            <a href="#resume">Resume</a>
           </li>
         </ul>
       </nav>
