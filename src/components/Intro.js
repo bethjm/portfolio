@@ -4,9 +4,13 @@ const Intro = () => {
   return (
     <div className="intro" id="intro">
       <div className="content">
-        <h1>Beth Mills</h1>
-        <h3>Full Stack Developer</h3>
-        <p>video goes here</p>
+        <div className="content-1">
+          <h1>Beth Mills</h1>
+          <h3>Full Stack Developer</h3>
+        </div>
+        <div className="content-2">
+          <p>video goes here</p>
+        </div>
       </div>
     </div>
   );
