@@ -24,6 +24,11 @@
   padding: 1rem;
 }
 
+.projects .container .card .clickable-links {
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (max-width: 940px) {
   .projects .container {
     grid-template-columns: auto;

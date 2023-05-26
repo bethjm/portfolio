@@ -9,6 +9,11 @@ const Projects = () => {
       <div className="container">
         <div className="card">
           <a>image goes here</a>
+          <div className="clickable-links">
+            <a>github</a>
+            <a>youtube</a>
+            <a>photos?</a>
+          </div>
           <h3>title of project</h3>
           <p>
             project description. project description. project description.
@@ -17,6 +22,11 @@ const Projects = () => {
         </div>
         <div className="card">
           <a>image goes here</a>
+          <div className="clickable-links">
+            <a>github</a>
+            <a>youtube</a>
+            <a>photos?</a>
+          </div>
           <h3>title of project</h3>
           <p>
             project description. project description. project description.
@@ -25,6 +35,11 @@ const Projects = () => {
         </div>
         <div className="card">
           <a>image goes here</a>
+          <div className="clickable-links">
+            <a>github</a>
+            <a>youtube</a>
+            <a>photos?</a>
+          </div>
           <h3>title of project</h3>
           <p>
             project description. project description. project description.
