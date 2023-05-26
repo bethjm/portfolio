@@ -12,79 +12,63 @@ const Languages = () => {
         <div className="container">
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>JavaScript</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>Python</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>CSS</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>HTML</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
-          </div>
-          <div className="grid-item">
-            <img />
-            <p>NAME OF THING</p>
-          </div>
-          <div className="grid-item">
-            <img />
-            <p>NAME OF THING</p>
-          </div>
-          <div className="grid-item">
-            <img />
-            <p>NAME OF THING</p>
-          </div>
-          <div className="grid-item">
-            <img />
-            <p>NAME OF THING</p>
+            <p>EJS</p>
           </div>
         </div>
 
-        <h3>Libraries</h3>
+        <h3>Libraries and Frameworks</h3>
         <div className="container">
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>React.js</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>Django</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>NPM</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>Express</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>Jquery</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>Json</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>Bootstrap</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>Flexbox</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>Bulma.io</p>
           </div>
         </div>
 
@@ -92,39 +76,23 @@ const Languages = () => {
         <div className="container">
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>PostgreSql</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>MongoDB</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>Git</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
+            <p>RESTful routing</p>
           </div>
           <div className="grid-item">
             <img />
-            <p>NAME OF THING</p>
-          </div>
-          <div className="grid-item">
-            <img />
-            <p>NAME OF THING</p>
-          </div>
-          <div className="grid-item">
-            <img />
-            <p>NAME OF THING</p>
-          </div>
-          <div className="grid-item">
-            <img />
-            <p>NAME OF THING</p>
-          </div>
-          <div className="grid-item">
-            <img />
-            <p>NAME OF THING</p>
+            <p>FULL CRUD</p>
           </div>
         </div>
       </div>
