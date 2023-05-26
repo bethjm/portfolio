@@ -2,9 +2,15 @@
   margin: 3rem;
 }
 
-.container h3,
-.container p {
+.contact .container h3 {
   text-align: center;
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.contact .container p {
+  text-align: center;
+  font-size: 2rem;
 }
 
 .clickable-links {

@@ -6,8 +6,6 @@ const Languages = () => {
   return (
     <div className="languages" id="languages">
       <div className="box">
-        <h2>Skills</h2>
-
         <h3>Languages</h3>
         <div className="container">
           <div className="grid-item">
@@ -37,6 +35,14 @@ const Languages = () => {
           <div className="grid-item">
             <img />
             <p>React.js</p>
+          </div>
+          <div className="grid-item">
+            <img />
+            <p>Next.js</p>
+          </div>
+          <div className="grid-item">
+            <img />
+            <p>Node.js</p>
           </div>
           <div className="grid-item">
             <img />
@@ -72,11 +78,15 @@ const Languages = () => {
           </div>
         </div>
 
-        <h3>Databases</h3>
+        <h3>Databases etc</h3>
         <div className="container">
           <div className="grid-item">
             <img />
             <p>PostgreSql</p>
+          </div>
+          <div className="grid-item">
+            <img />
+            <p>SQL</p>
           </div>
           <div className="grid-item">
             <img />

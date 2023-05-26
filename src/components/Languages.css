@@ -6,13 +6,14 @@
   margin: 3rem;
 }
 
-.languages .container {
+.languages .box .container {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   padding: 10px;
 }
 
 .languages h3 {
+  padding-top: 1rem;
   font-size: 3rem;
   text-align: center;
 }
@@ -20,20 +21,21 @@
 .container .grid-item {
   padding: 1rem;
   background: #ffffff;
+  text-align: center;
   margin: 1.5rem;
   border-radius: 50px 50px 0px 50px;
   transition: all 0.3s ease-in-out 0s;
 }
 
 .grid-item:hover {
-  background: var(--secondary-dark);
+  background: var(--primary-color);
   border-radius: 50px 50px 0px 50px;
   transition: all 0.5s ease-in-out 0s;
 }
 
 @media screen and (max-width: 940px) {
-  .languages .container {
-    grid-template-columns: auto auto auto;
+  .languages .box .container {
+    grid-template-columns: auto auto;
   }
 
   .languages .grid-item {
