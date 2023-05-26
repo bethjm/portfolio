@@ -1,0 +1,15 @@
+.contact {
+  margin: 3rem;
+}
+
+.container h3,
+.container p {
+  text-align: center;
+}
+
+.clickable-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem;
+}
