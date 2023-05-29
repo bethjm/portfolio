@@ -1,5 +1,7 @@
 import React from "react";
 
+import ClipboardCopy from "./CopyFeature/ClipboardCopy";
+
 import "./Contact.css";
 
 const Contact = () => {
@@ -7,7 +9,8 @@ const Contact = () => {
     <div className="contact" id="contact">
       <div className="container">
         <h3>Contact Information</h3>
-        <p>Email: bethmills.pn@gmail.com</p>
+        <p>Email:</p>
+        <ClipboardCopy copyText="bethmills.pn@gmail.com" />
 
         <div className="clickable-links">
           <div>

@@ -1,6 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import DevIcon from "devicon-react-svg";
 
 import "./Languages.css";
 
