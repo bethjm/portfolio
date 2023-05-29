@@ -11,12 +11,15 @@ const Contact = () => {
 
         <div className="clickable-links">
           <div>
-            <img />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/linkedin/linkedin-original.svg" />
             <h4>LinkedIn</h4>
           </div>
 
           <div>
-            <img />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/github/github-original.svg"
+              href="https://github.com/bethjm"
+            />
             <h4>GitHub</h4>
           </div>
 

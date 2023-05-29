@@ -1,5 +1,6 @@
 .languages {
   background-color: #f8f8f8;
+  padding-top: 2rem;
 }
 
 .box {
@@ -28,7 +29,7 @@
 }
 
 .grid-item:hover {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   border-radius: 50px 50px 0px 50px;
   transition: all 0.5s ease-in-out 0s;
 }
