@@ -9,6 +9,7 @@ const Contact = () => {
     <div className="contact" id="contact">
       <div className="container">
         <h3>Contact Information</h3>
+        <span className="line"></span>
         <p>Email:</p>
         <ClipboardCopy copyText="bethmills.pn@gmail.com" />
 
