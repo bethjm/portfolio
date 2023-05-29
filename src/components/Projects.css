@@ -60,12 +60,20 @@
 }
 
 @media screen and (max-width: 940px) {
+  .projects {
+    margin: 0;
+  }
+
   .projects .container {
     grid-template-columns: auto;
   }
 
   .projects .card {
-    max-width: 100%;
+    max-width: 90%;
     margin: 1rem;
+  }
+
+  .projects .container .card .container-2 {
+    grid-template-columns: auto auto;
   }
 }
