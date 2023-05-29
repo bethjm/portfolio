@@ -43,11 +43,17 @@
   margin-top: 1rem;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1200px) {
   .about .container {
     grid-template-columns: 1fr;
   }
 
+  .about .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 940px) {
   .about .container {
     width: 100%;
   }
