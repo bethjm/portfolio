@@ -28,6 +28,7 @@ const Languages = () => {
           </div>
           <div className="grid-item">
             <img
+              id="ejs-image"
               src="https://caseyvoss95.github.io/portfolio-site/uploads/widgets/EJS.png"
               alt="ejs"
             />
@@ -67,6 +68,7 @@ const Languages = () => {
           </div>
           <div className="grid-item">
             <img
+              id="json-image"
               src="https://caseyvoss95.github.io/portfolio-site/uploads/widgets/json-icon.svg"
               alt="a json circle"
             />
@@ -78,6 +80,7 @@ const Languages = () => {
           </div>
           <div className="grid-item">
             <svg
+              id="flexbox-image"
               version="1.0"
               xmlns="http://www.w3.org/2000/svg"
               width="100"

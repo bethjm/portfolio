@@ -34,13 +34,29 @@
   transition: all 0.5s ease-in-out 0s;
 }
 
+#ejs-image,
+#json-image,
+#flexbox-image {
+  width: 10rem;
+  height: 12rem;
+}
+
 @media screen and (max-width: 940px) {
   .languages .box .container {
     grid-template-columns: auto auto;
   }
 
-  .languages .grid-item {
+  .languages .container .grid-item {
     max-width: 100%;
     margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  #ejs-image,
+  #json-image,
+  #flexbox-image {
+    width: 5rem;
+    height: 5rem;
   }
 }
