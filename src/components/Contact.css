@@ -17,6 +17,6 @@
 .clickable-links {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 2rem;
+  justify-content: space-around;
+  margin-top: 5rem;
 }
