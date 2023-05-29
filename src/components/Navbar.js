@@ -41,6 +41,11 @@ const NavBar = () => {
             </a>
           </li>
           <li className="nav-item">
+            <a href="#contact" onClick={closeMenu}>
+              Contact
+            </a>
+          </li>
+          <li className="nav-item">
             <a href="#resume" onClick={closeMenu}>
               Resume
             </a>
