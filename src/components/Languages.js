@@ -103,7 +103,7 @@ const Languages = () => {
             <p>RESTful routing</p>
           </div>
           <div className="grid-item">
-            <img />
+            <img src="" />
             <p>FULL CRUD</p>
           </div>
         </div>

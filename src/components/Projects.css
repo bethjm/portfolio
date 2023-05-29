@@ -34,6 +34,12 @@
   flex-direction: row;
 }
 
+.projects .container .card .clickable-links img,
+.projects .container .card .clickable-links svg {
+  height: 4rem;
+  width: 4rem;
+}
+
 .projects .container .card .container-2 {
   display: grid;
   grid-template-columns: auto auto auto;
