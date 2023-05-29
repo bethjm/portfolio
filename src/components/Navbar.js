@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 
@@ -11,7 +12,14 @@ const NavBar = () => {
   return (
     <div className="header">
       <nav className="navbar">
-        <a href="/">logo</a>
+        <Link
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          onClick={closeMenu}
+        ></Link>
         <div className="hamburger" onClick={handleClick}>
           {click ? (
             <FaTimes size={30} style={{ color: "#ffffff" }} />
@@ -21,34 +29,76 @@ const NavBar = () => {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <a href="/" onClick={closeMenu}>
+            <Link
+              to="intro"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}
+            >
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#about" onClick={closeMenu}>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}
+            >
               About
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#projects" onClick={closeMenu}>
+            <Link
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}
+            >
               Projects
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#languages" onClick={closeMenu}>
+            <Link
+              to="languages"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}
+            >
               Skills
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#contact" onClick={closeMenu}>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}
+            >
               Contact
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a href="#resume" onClick={closeMenu}>
+            <Link
+              to="resume"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              onClick={closeMenu}
+            >
               Resume
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
