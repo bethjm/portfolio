@@ -13,7 +13,7 @@
   font-size: 2rem;
 }
 
-.clickable-links {
+.contact .container .clickable-links {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
