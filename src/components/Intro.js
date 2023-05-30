@@ -1,5 +1,7 @@
 import "./Intro.css";
-import YoutubeVideo from "./Videos/Video.js";
+import React from "react";
+
+// const videosrc = "https://www.youtube.com/watch?v=hMgJNbKhi3E";
 
 const Intro = () => {
   return (
@@ -10,7 +12,14 @@ const Intro = () => {
           <h3>Full Stack Developer</h3>
         </div>
         <div className="content-2">
-          <YoutubeVideo />
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/hMgJNbKhi3E"
+            title="Youtube Player"
+            frameborder="0"
+            allowFullScreen
+          />
         </div>
       </div>
     </div>
