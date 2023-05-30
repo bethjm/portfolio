@@ -19,7 +19,7 @@ const Projects = () => {
             <a href="https://github.com/bethjm/dmdock-front-end.git">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@master/icons/github/github-original.svg" />
             </a>
-            <a href="#">
+            <a href="https://www.loom.com/share/79a18aa78f994443b3b9c99917aa87a3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 data-name="Layer 1"

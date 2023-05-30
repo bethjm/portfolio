@@ -1,4 +1,5 @@
 import "./Intro.css";
+import YoutubeVideo from "./Videos/Video.js";
 
 const Intro = () => {
   return (
@@ -9,7 +10,7 @@ const Intro = () => {
           <h3>Full Stack Developer</h3>
         </div>
         <div className="content-2">
-          <p>video goes here</p>
+          <YoutubeVideo />
         </div>
       </div>
     </div>
