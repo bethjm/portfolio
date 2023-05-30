@@ -27,3 +27,9 @@
   transition-duration: 0.4s;
   cursor: pointer;
 }
+
+@media screen and (max-width: 940px) {
+  #copy-text {
+    font-size: 1.5rem;
+  }
+}
