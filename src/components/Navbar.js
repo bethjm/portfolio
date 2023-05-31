@@ -12,14 +12,6 @@ const NavBar = () => {
   return (
     <div className="header">
       <nav className="navbar">
-        <Link
-          to="home"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-          onClick={closeMenu}
-        ></Link>
         <div className="hamburger" onClick={handleClick}>
           {click ? (
             <FaTimes size={30} style={{ color: "#ffffff" }} />
