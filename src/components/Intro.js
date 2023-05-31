@@ -11,8 +11,6 @@ const Intro = () => {
         </div>
         <div className="content-2">
           <iframe
-            width="760"
-            height="515"
             src="https://www.youtube.com/embed/hMgJNbKhi3E"
             title="Youtube Player"
             frameborder="0"
