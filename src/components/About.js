@@ -22,8 +22,8 @@ const About = () => {
             My commitment to lifelong learning and collaboration has propelled
             me to constantly seek new ways to innovate and contribute to shared
             goals. With a dedication to excellence and a passion for knowledge,
-            I am eager to join a team that shares my values and contribute my
-            skills to drive success.
+            I am eager to join a team that shares my values to contribute my
+            skills and drive success.
           </p>
         </div>
       </div>

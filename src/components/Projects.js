@@ -61,6 +61,9 @@ const Projects = () => {
               <h4>Django</h4>
             </div>
             <div className="grid-item-2">
+              <h4>PostgreSql</h4>
+            </div>
+            <div className="grid-item-2">
               <h4>JWT</h4>
             </div>
             <div className="grid-item-2">
